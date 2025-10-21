@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-easyocr
-langdetect
-python-jose
-requests
