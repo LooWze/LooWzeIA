@@ -12,7 +12,7 @@ app = FastAPI()
 # --- CORS Middleware ---
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://loo-wze-ia.vercel.app/"],
+    allow_origins=["http://localhost:5173", "https://tonapi.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
